@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>sample-parent</name>
+	<comment></comment>
+	<projects>
+		<project>sample-business</project>
+		<project>sample-dao</project>
+		<project>sample-data-object</project>
+		<project>sample-entity</project>
+		<project>sample-service</project>
+		<project>sample-war</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.maven.ide.eclipse.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.maven.ide.eclipse.maven2Nature</nature>
+	</natures>
+</projectDescription>
